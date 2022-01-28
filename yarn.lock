@@ -2798,7 +2798,7 @@ core-js-compat@^3.20.0, core-js-compat@^3.20.2, core-js-compat@^3.6.5:
     browserslist "^4.19.1"
     semver "7.0.0"
 
-core-js@^3.6.5:
+core-js@^3.6.5, core-js@^3.8.3:
   version "3.20.3"
   resolved "https://registry.npmmirror.com/core-js/download/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
   integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
@@ -4393,6 +4393,11 @@ highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.npmmirror.com/highlight.js/download/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
+
+highlight.js@^11.3.1, highlight.js@^11.4.0:
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.4.0.tgz#34ceadd49e1596ee5aba3d99346cdfd4845ee05a"
+  integrity sha512-nawlpCBCSASs7EdvZOYOYVkJpGmAOKMYZgZtUqSRqodZE0GRVcFKwo1RcpeOemqh9hyttTdd5wDBwHkuSyUfnA==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
@@ -7839,6 +7844,11 @@ terser@^4.1.2:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
+text-loader@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/text-loader/-/text-loader-0.0.1.tgz#8bf75d749b7c0579c939920051c69ea572ebddc1"
+  integrity sha1-i/dddJt8BXnJOZIAUcaepXLr3cE=
+
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.nlark.com/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -8326,7 +8336,17 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz?cache=0&sync_timestamp=1622604416998&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-template-es2015-compiler%2Fdownload%2Fvue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^3.0.0:
+vue3-highlight-code@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/vue3-highlight-code/-/vue3-highlight-code-0.1.9.tgz#c3c98b644c97f5df26c400c148b2aa58c7a3406b"
+  integrity sha512-aS9DNh7O4uTBHdq6HnNUtmDIWJZapU2UTzihhXmICrX7PI8jS05u/LxoApDjhZZcq4LeFBMxTEtNKI7V2m4Big==
+  dependencies:
+    core-js "^3.8.3"
+    highlight.js "^11.3.1"
+    text-loader "^0.0.1"
+    vue "^3.2.13"
+
+vue@^3.0.0, vue@^3.2.13:
   version "3.2.29"
   resolved "https://registry.npmmirror.com/vue/download/vue-3.2.29.tgz#3571b65dbd796d3a6347e2fd45a8e6e11c13d56a"
   integrity sha512-cFIwr7LkbtCRanjNvh6r7wp2yUxfxeM2yPpDQpAfaaLIGZSrUmLbNiSze9nhBJt5MrZ68Iqt0O5scwAMEVxF+Q==

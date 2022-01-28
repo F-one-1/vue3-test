@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "highlight.js": "^11.4.0",
+    "text-loader": "^0.0.1",
+    "vue": "^3.0.0",
+    "vue3-highlight-code": "^0.1.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
